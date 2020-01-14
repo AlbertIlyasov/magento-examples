@@ -1,0 +1,22 @@
+{
+  "name": "Examples/module-customer",
+  "description": "Customer's info update module",
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "version": "1.0.1",
+  "authors": [
+    {
+      "email": "kralbert@mail.ru",
+      "name": "Albert Ilyasov"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Examples\\Customer\\": ""
+    }
+  }
+}
